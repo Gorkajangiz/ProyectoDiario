@@ -1,0 +1,27 @@
+2026-01-19T16:34:49.299+01:00  INFO 22936 --- [main] com.example.main.MainApplication         : Starting MainApplication using Java 25 with PID 22936 (C:\Users\gorka\IdeaProjects\ProyectoDiarioV2\target\classes started by gorka in C:\Users\gorka\IdeaProjects\ProyectoDiarioV2)
+2026-01-19T16:34:49.302+01:00 DEBUG 22936 --- [main] com.example.main.MainApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-19T16:34:49.303+01:00  INFO 22936 --- [main] com.example.main.MainApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-19T16:34:50.116+01:00  INFO 22936 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-19T16:34:50.129+01:00  INFO 22936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-19T16:34:50.130+01:00  INFO 22936 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-19T16:34:50.178+01:00  INFO 22936 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 826 ms
+2026-01-19T16:34:50.256+01:00  WARN 22936 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controladorEntrada' defined in file [C:\Users\gorka\IdeaProjects\ProyectoDiarioV2\target\classes\com\example\main\api\controlador\ControladorEntrada.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'entradaServicio': Unsatisfied dependency expressed through field 'dataSource': No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-01-19T16:34:50.258+01:00  INFO 22936 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-01-19T16:34:50.272+01:00  INFO 22936 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-19T16:34:50.286+01:00 ERROR 22936 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dataSource in com.example.main.service.EntradaServicio required a bean of type 'javax.sql.DataSource' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'javax.sql.DataSource' in your configuration.
+
