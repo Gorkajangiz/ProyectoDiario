@@ -1,4 +1,4 @@
-<h1 align="center">Proyecto Diario (Incompleto)</h1>
+<h1 align="center">Proyecto Diario (En progreso)</h1>
 
 <p align="center">
 Un servicio API REST al que poder subir y bajar entradas de diario desde la misma red a un servidor local
